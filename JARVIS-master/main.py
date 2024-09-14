@@ -33,11 +33,11 @@ GREETINGS_RES = ["always there for you sir", "i am ready sir",
                  "your wish my command", "how can i help you sir?", "i am online and ready sir"]
 
 EMAIL_DIC = {
-    'myself': 'atharvaaingle@gmail.com',
-    'my official email': 'atharvaaingle@gmail.com',
-    'my second email': 'atharvaaingle@gmail.com',
-    'my official mail': 'atharvaaingle@gmail.com',
-    'my second mail': 'atharvaaingle@gmail.com'
+    'myself': 'driffinder@gmail.com',
+    'my official email': 'driffinder@gmail.com',
+    'my second email': 'driffinder@gmail.com',
+    'my official mail': 'driffinder@gmail.com',
+    'my second mail': 'driffinder@gmail.com'
 }
 
 CALENDAR_STRS = ["what do i have", "do i have plans", "am i busy"]
@@ -126,7 +126,7 @@ class MainThread(QThread):
 
             elif re.search('launch', command):
                 dict_app = {
-                    'chrome': 'C:/Program Files/Google/Chrome/Application/chrome'
+                    'chrome': 'C:\Program Files\Google\Chrome\Application'
                 }
 
                 app = command.split(' ', 1)[1]
